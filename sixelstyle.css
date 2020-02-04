@@ -19,6 +19,18 @@ body {
 	border-bottom:1px solid #e1e1e1;
 	overflow: auto;
 }
+#titlebar a:link {
+  color: #cdcd00;
+}
+#titlebar a:visited {
+  color: #cdcd00;
+}
+#titlebar a:hover {
+  color: #a19900;
+}
+#titlebar a:active {
+  color: #a19900;
+}
 .slogan{
 	float:left;
 	display:inline;
