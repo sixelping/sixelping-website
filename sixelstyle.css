@@ -16,21 +16,43 @@ body {
 
 #titlebar{
 	padding:5px;
+	border-bottom:1px solid #e1e1e1;
+	overflow: auto;
+}
+.slogan{
+	float:left;
+	display:inline;
+	margin-top:0px;
+	margin-bottom:0px;
 	margin-left:20px;
 }
-
-#navbar{
-	padding:5px;
-	border-bottom:1px solid #e1e1e1;
-	border-top:1px solid #e1e1e1;
+.nav{
+	float:right;
+	display:inline;
+	margin-top:0px;
+	margin-bottom:0px;
+	margin-right:20px;
 }
-#navbar p{
-	margin-left: auto;
-	margin-right: 20px;
+
+#clearfloat{
+	clear:both;
 }
 
 
 #mainbox{
 	padding:5px;
-	margin-left:20px;
+	margin:20px;
+}
+
+#streambox{
+}
+
+#streambox img{
+	width:100%;
+	padding:0px;
+	border-bottom:1px solid #e1e1e1;
+	border-top:1px solid #e1e1e1;
+}
+.yellowtext{
+	color:#efef22;
 }
