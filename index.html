@@ -3,20 +3,21 @@
 <head>
 	<meta charset="utf-8"/>
 	<title>Sixel Ping - The Ping6 Pixel Stream</title>
+	<link rel="stylesheet" type="text/css" href="sixelstyle.css">
 </head>
-<body style="background-color:#232323;padding:0px;margin:0px;font-family:Consolas;color:#e1e1e1;">
-	<div style="width:960px;height:100%;margin-left:auto;margin-right:auto;background-color:#010101;">
-		<div style="padding:5px;margin-left:20px;">
+<body>
+	<div id="wrapper">
+		<div id=titlebar">
 			<img src="sixelrainbowbig.png" /> &nbsp;&nbsp;&nbsp; - One of the many uses for IPv6<br />
 		</div>
-		<div style="padding:5px;margin-left:20px;border-bottom:1px solid #e1e1e1;border-top:1px solid #e1e1e1;">
+		<div id="navbar">
 			<a href="index.html">Home</a> | <a href="about.html">About</a> | <a href="stats.html">Stats</a> | <a href="https://github.com/sixelping">Source</a>
 		</div>
-		<div style="padding:5px;margin-left:20px;">
+		<div id="mainbox">
 			Greetings,<br />
 			&nbsp;&nbsp;&nbsp; Welcome to SixelPing, the interactive ICMPv6 visualizor. <br/>
 		</div>
-		<div style="padding:5px;margin-left:20px;">
+		<div id="mainbox">
 
 			Ping an IPv6 address to change a pixel on the stream. Your pixel will decay over time. There will be no ping response from our end.<br/><br/>
 			X = (0-1919)
@@ -30,7 +31,7 @@
 			<a href="https://stream.sixelping.com/stream.mjpeg"><img style="width:100%;padding:0px;border-bottom:1px solid #e1e1e1;border-top:1px solid #e1e1e1;" src="https://stream.sixelping.com/stream.mjpeg" /></a>
 			<div align="right">(click image for full screen)&nbsp;&nbsp;</div>
 		</div>
-		<div style="margin-left:20px;padding:5px;">
+		<div id="mainbox">
 			<h3>Supported By:</h3>
 			<ul>
 				<li><a href="http://roelf.org">Roelf Wichertjes</a> - Software Development</li>
